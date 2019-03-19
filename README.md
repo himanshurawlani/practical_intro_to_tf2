@@ -1,2 +1,26 @@
-# practical_intro_to_tf2
-Building an image classifier in TF2
+# Practical Introduction to TensorFlow 2.0
+This introduces the new Tensorflow 2.0 in a practical way by building an image classifier which classifies 5 classes of flowers. It covers the following:
+1. Downloading and preprocessing data using TensorFlow Datasets
+* Checking out available datasets and their features
+* Downloading the dataset (tfds.load()))
+* Pre-processing the dataset
+* Visualizing the dataset
+
+2. Building and training an image classifier model using Keras high level API
+* Building a simple CNN in Keras
+* Visualising the model
+* Compiling and training the model
+* Training the model using data augmentation
+* Using TensorBoard inside notebooks
+
+3. Downloading and fine-tuning InceptionV3 pre-trained model
+* Downloading pre-trained model
+* Adding classification head
+* Training the classification head
+* Fine tuning the model
+
+4. Serving the trained model using TensorFlow Serving
+* Tensorflow Serving installation
+* Starting TensorFlow Serving
+* Making REST requests
+* Parsing the response
