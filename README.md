@@ -1,5 +1,5 @@
 # Practical Introduction to TensorFlow 2.0
-This introduces the new Tensorflow 2.0 in a practical way by building an image classifier which classifies 5 classes of flowers. It covers the following:
+This repository introduces the new Tensorflow 2.0 in a practical way by building an image classifier which classifies 5 classes of flowers. It covers the following:
 1. Downloading and preprocessing data using TensorFlow Datasets
 * Checking out available datasets and their features
 * Downloading the dataset (tfds.load()))
@@ -24,3 +24,5 @@ This introduces the new Tensorflow 2.0 in a practical way by building an image c
 * Starting TensorFlow Serving
 * Making REST requests
 * Parsing the response
+
+Read the Medium article explaining the above concepts in detail [here](https://medium.com/@himanshurawlani/getting-started-with-tensorflow-2-0-faf5428febae?source=friends_link&sk=216dd7c2de38e8344737221768126b14).
